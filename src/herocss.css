@@ -1,0 +1,204 @@
+.about img{
+    width: 100%;
+    height:500px;
+    z-index: 1;
+    object-fit: cover;
+    position: relative;
+    }
+.about h1{
+    position: absolute;
+    top:55%;
+    left:50%;
+    color:yellow;
+     z-index: 99;
+     transform: translate(-50%, -50%);
+    
+}
+.desc p{
+    font-size: 18px;
+}
+.desc{
+    display: block;
+    height:100%;
+    width:100%;
+    align-items:left;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 10px 10px  10px 10px;
+    margin-bottom: 20px;
+    z-index: 99;
+}
+.desc ol{
+    list-style:none;
+}
+.nainital{
+    height:50%;
+    width:45%;
+    
+    padding: 10px 10px  10px 10px;
+    z-index: 99;
+}
+.imga{
+    height:100%;
+    width:90%;
+    display: flex;
+
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* object-fit: fill; */
+    position: relative;
+    column-gap: 20px;
+}
+.Rish{
+    position:relative;
+    padding: 10px 10px  10px 10px;
+
+}
+.Rishikesh{
+    height:50%;
+    width:45%;
+    padding: 10px 10px  10px 10px;
+    z-index: 99;
+}
+.imgb{
+    height:100%;
+    width:90%;
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+}
+.Mus{
+    position:relative;
+    padding: 10px 10px  20px 20px;
+}
+.imgc{
+    height:100%;
+    width:90%;
+    display: flex;
+    position: relative;
+    column-gap: 20px; 
+}
+.Mussoorie{
+    height:50%;
+    width:45%;
+    padding: 10px 10px  10px 10px;
+    z-index: 99;
+}
+.imgd{
+    height:100%;
+    width:90%;
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+}
+.Jimi{
+    height:50%;
+    width:45%;
+    padding: 10px 10px  10px 10px;
+    z-index: 99;
+}
+.Jim{
+    position:relative;
+    padding: 10px 10px  20px 20px;
+}
+.auli{
+    position:relative;
+    padding: 10px 10px  20px 20px;
+}
+.imge{
+    height:100%;
+    width:90%;
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+}
+.auli-img{
+    height:50%;
+    width:45%;
+    padding: 10px 10px  10px 10px;
+    z-index: 99;
+}
+.contact img{
+    width: 100%;
+    height:500px;
+    z-index: 1;
+    object-fit: cover;
+    position: relative;
+    }
+.contact h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+     z-index: 99;
+     transform: translate(-50%, -50%);
+}
+/* #email{
+    position: relative;
+    top: 80px;
+    left:50%;
+     transform:translate(-50%,-50%);
+    
+} */
+button{
+    top: 110px;
+    position: relative;
+    left:50%;
+     transform:translate(-50%,-50%);
+     background-color: blue;
+     color: white;
+     border-radius: 5px;
+     padding:10px 10px 10px 10px;
+     box-shadow: 5px;
+
+}
+button:hover{
+    color:black;
+    background-color: white;
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.suggestions img{
+    width: 100%;
+    height:500px;
+    z-index: 1;
+    object-fit: cover;
+    position: relative;
+    }
+.suggestions h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+     z-index: 99;
+     transform: translate(-50%, -50%);
+}
+.accomodations img{
+    width: 100%;
+    height:500px;
+    z-index: 1;
+    object-fit: cover;
+    position: relative;
+    }
+.accomodations h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:yellow;
+    font-weight: 600;
+     z-index: 99;
+     transform: translate(-50%, -50%);
+}
+.accimg{
+    display: flex;
+    column-gap: 20px;
+    width: 50%;
+    height:50%;
+    column-count: 2;
+    position: relative;
+    left:200px;
+}
